@@ -1,0 +1,70 @@
+html, body{ 
+  margin:0;
+  padding:0;
+  width:100%;
+}
+.carousel-item img {
+     width: 100%;  
+     height:656px;
+    
+     filter:blur(3px) ;
+     
+  }
+ body{
+   overflow-x: hidden;
+   margin: 0px;  
+ }
+ #topnavbar{
+   padding-left:20px;
+   padding-right:20px;
+ }
+ .carousel-content {
+  position: absolute;
+  bottom: 60%;
+  left: 5%;
+  z-index: 20;
+  color: white;
+  text-shadow: 2px 2px 3px rgba(0,0,0,.6);
+}
+.container-fluid{
+  padding:0px;
+}
+@media only screen and (max-width:873px)
+    {
+      #Slider  {
+        width: 120%;
+        height:500px !important;
+      }
+      #SliderContent h3{
+        font-size: 100%;
+      }
+      #services {
+          margin-left: 10%;
+      }
+      #MidImg {
+       display: block;
+width: 120%;
+        }
+        #stats{
+          width: 121%;
+        }
+        #statscontent{
+          margin-left: -0.5rem !important;
+          padding: 5rem!important;
+        }
+        #stats img{
+        width: 88% !important;
+
+        }
+        #contact { margin-left: 2.5%; 
+         }
+         #abjustablediv{ display: none;}
+         #hrr { width: 120%; }
+         #accordian { margin-left: 0%; width: 120%; }
+         .footerr { margin-left: 0%; width: 120%;}
+         
+    }
+  #nono{
+    padding:0px 0px;
+  }  
+   

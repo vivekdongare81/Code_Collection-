@@ -1,0 +1,230 @@
+#brandimg{
+    width: 100px;
+    height:70px;
+    padding: 0px;
+    filter:scale(1.2,1.5);
+        
+}
+#searchbox{
+    background-color: #fcc302;
+    border: none;
+    border-radius: 0px;
+    box-shadow:5px 10px 11px 0px #00000021;
+    
+}
+#searchbtn{
+    background-color: #00bec9;
+    position:relative;
+    right:20px;
+    border: none;
+    border-radius: 0px;
+    box-shadow:5px 10px 11px 0px #00000021;
+}
+#searchbox::placeholder{
+    color:white;
+}
+#searchicon{
+    width: 150px;
+    height:150px;
+  
+}
+#topnavbar{
+    background-color: #daac00;
+    
+    padding:8px;
+    font-size: 18px;
+
+}
+#navbarSupportedContent{
+    position:relative;
+    margin-left:23%;
+}
+#navbarSupportedContent li{
+    padding-left:40px;
+    margin-left:0px;
+}
+@media only screen and (max-width:991px)
+{  #navbarSupportedContent{
+    margin-left:0px;
+}
+  #searchform{
+    position: relative;
+    margin-bottom:15px; 
+   
+  }        
+}
+
+#banner{
+    background-color: #fcc303;
+    padding-bottom: 50px;
+}
+#bannertext h1{
+    text-align:left;
+    color:white;
+    font-size:60px;
+    margin-top:20%;
+}
+#banner p{
+    color:white;
+    margin-top:30px;
+    font-weight:bold;
+
+}
+#banner button{
+    background-color: #00bec9;
+    border:none;
+}
+#btn-2{
+    margin-left:10px;
+}
+#bannerimg{
+    height:50% ;
+    width: 27%;
+    margin:20px 90px 0px 0px ;
+    filter: drop-shadow(10px 10px 15px #22223C);
+}
+@media only screen and (max-width:1200px)
+{
+    #bannertext h1{
+   font-size:50px;
+}
+} 
+@media only screen and (max-width:980px)
+{
+    #bannertext h1{
+   font-size:35px;
+}
+} 
+@media only screen and (max-width:770px)
+{
+   #bannertext{
+      
+       padding:80px;
+       padding-top:0px;
+       margin-top:0px;
+   }
+}
+
+#nextpagetext{
+    
+    margin:auto;
+}
+
+.img-design{
+margin-top:100px;
+margin-right:100px;
+
+}
+#secondpagebtn{
+    background-color: #fcc303;
+    border-color: yellow;
+}
+.designbox{
+    height:200px;
+    width:250px;
+    background-color: #fcc303;
+    position:relative;
+     bottom:170px;
+     right:30px;
+     z-index:-1;
+}
+@media only screen and (max-width:770px)
+{
+    .img-design{
+        margin-top:70px;
+       margin-left:70px;
+       
+    }
+    #nextpagetext{
+        padding-top:50px;
+        
+    }
+}   
+
+
+#lastpage{
+    z-index: -1;
+    margin-top:20px;
+    margin-bottom:110px;
+    background:url(doctor-checking-doberman-s-health-condition.jpg);
+    background-position: center;
+   
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    filter:opacity(.9)
+   
+    
+   
+}
+#rowcontent{
+    z-index: 1;
+    padding-top:100px ;
+    padding-bottom:100px ;
+    color: white;
+    background-color: #fcc303;
+    filter:opacity(0.85)
+    
+}
+.icons{
+    z-index: 2;
+    width: 40%;
+    filter:invert()
+    
+}
+@media only screen and (max-width:583px)
+    {
+        .icons{
+            margin-top:40px;
+            z-index: 2;
+            width: 20%;
+            filter:invert()
+        }   
+    
+    
+#rowcontent{
+    z-index: 1;
+    padding-top:0px ;
+    padding-bottom:0px ;
+    color: white;
+    background-color: #fcc303;
+    filter:opacity(0.85)
+    
+}
+#lastpage{
+    z-index: -1;
+    margin-top:50px;
+    margin-bottom:120px;
+    background:url(doctor-checking-doberman-s-health-condition.jpg);
+    background-position: center;
+   
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    filter:opacity(.9)
+   
+    
+   
+}
+}
+
+#contactus{
+    background-color: #daac00;
+    padding: 0px;
+    color: black;
+}
+.contactelement{
+    padding-top: 15px;
+    font-size:90%;
+}
+.contactelement a{
+    color:black;
+    font-style:oblique;
+    text-decoration: none;
+}
+.contactelement h5{
+  font-weight: lighter ;
+}
+#lasttext{
+    font-weight: lighter;
+    padding:0px ;
+    margin: 0px;
+}

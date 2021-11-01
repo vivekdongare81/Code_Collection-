@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+<head>
+<title>
+This is My Form
+
+</title>
+<link rel="stylesheet" href="personal+form.css">
+</head>
+<body>
+    
+    <form action="mailto:dongarevivek81@gamil.com" method="post" enctype="text/plain" >
+           <fieldset >
+               <legend  >Registration Form</legend>
+    
+               <h2 class="one">This is FORM</h2>
+       <label for="name">Name   &nbsp;&nbsp; &nbsp;:</label> <input id="name" type="text" placeholder="Enter ur name here">
+       <br><br>
+       <label for="email">Email Id :</label> <input id="email" type="text" placeholder="Enter ur email id here">
+       <br><br>
+       <label for="pass">Password:</label><input type="password" id="pass">
+       <br><br>
+        <label >Gender &nbsp;:</label><input name="onlyone" type="radio" id="radio1"><label for="radio1">Male</label>
+                                      <input name="onlyone" type="radio" id="radio2"><label for="radio2">Female</label>
+                                    <!--To Let user choose only one Radio Use Attribute (name) with same value -->
+
+         <br><br>
+         <label>Select Your Date of Birth</label>
+         <input type="date"> 
+         <br><br>
+         <label>Hobby &nbsp; :</label>
+         <input id="a" type="checkbox" > <label for="a">Coding</label> 
+         <input id="b" type="checkbox" > <label for="b">Playing</label> 
+         <input id="c" type="checkbox" > <label for="c">Sketching</label> 
+         <input id="d" type="checkbox" > <label for="d">Reading</label> 
+         <input id="e" type="checkbox" > <label for="e">Sleeping</label> 
+         <br><br>
+
+         <lable>Country:</lable>
+         <select >
+             <option>England</option>
+             <option selected>India</option>  
+             <option>France</option>
+             <option>Italy</option>
+             <option>America</option>
+             <option>Japan</option>
+         </select>
+         <select size="3" multiple >
+            <option>England</option>
+            <option selected>India</option>  
+            <option>France</option>
+            <option>Italy</option>
+            <option>America</option>
+            <option>Japan</option>
+        </select>
+        <select size="3"  multiple>
+         <optgroup label="Nearby countries">
+            <option>Japan</option>
+            <option selected>India</option>  
+            <option>PK</option>
+         </optgroup>
+         <optgroup label="Distant Countries">
+            <option>Italy</option>
+            <option>America</option>
+            <option>England</option>
+        </optgroup>
+           
+        </select>
+         <br><br>
+         <label>Search or type Language name :</label>
+          <input  list="link">
+             <datalist id="link" >
+                 <option value="c">
+                 <option value="c++">
+                 <option value="python">
+                 <option value="java">
+                 <option value="javascript">
+             </datalist>
+             <br><br>
+             <label>Upload ur CV (In PDF Format)</label><input type="file" accept="application/pdf">
+         <br><br>
+         <input type="button" value ="Save"><br><br>
+         <input type="image" width="60"src="/Raw Materials/submit button.png" alt="submit image">   
+         <br><br>
+         <label> Feedback</label> <br>
+         <textarea>Enter your Feedback here</textarea>  
+        
+          <br><br><input type="submit"  >         
+     
+        </fieldset>
+    </form>
+
+      
+    </body>
+
+</html>

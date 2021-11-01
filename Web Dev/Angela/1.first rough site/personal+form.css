@@ -1,0 +1,47 @@
+body {
+    background-color:#eafaf2;
+   }  
+ hr{
+     border-style:none;
+     border-top-style:dotted;
+     border-color:grey;
+     border-width:10px;
+     width:5%;
+    
+     border-spacing: 50%;
+ }
+
+ h3 ,h1{
+     color:#298e9b;
+ }
+
+
+.one{
+    text-align:center;
+    background-color:red;
+     height:50%;
+     width:50%;
+    border: 20px solid ;
+    border-color: blue;
+    padding:30px;
+    box-sizing: border-box; /* To adding Border height in element size */
+    
+}
+.wholetwo{
+    display:flex;
+    box-sizing: border-box;
+    flex-flow:wrap;
+    padding: 3%;
+    border:solid;
+    margin: 1%;
+
+}
+.two{
+   
+    background-color: yellowgreen;
+    margin: 0.40%;
+    padding: 30px; 
+
+    
+    
+}
